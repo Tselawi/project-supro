@@ -8,7 +8,6 @@
   height: 10%;
   width: 100%;
   border-bottom: 1px solid #f2ede9;
-  background-color: white;
 }
 
 .navbar-brand {
@@ -148,124 +147,110 @@
   text-decoration: none;
 }
 
-/*add change hsia */
-.arrow {
-  font-size: 30px;
+/*add change hsia*/
+.fa-tag {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
-.home {
-  margin-top: 7%;
-}
-
-.product_title {
-  font-size: 30px;
-  font-weight: 700;
-}
-
-.sku {
-  font-size: 10px;
-  color: #999;
-}
-
-.price {
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.star {
-  height: 15px;
-}
-
-.descript {
-  font-size: 15px;
-  font-weight: 400;
-  color: #999;
-}
-
-.sm_pic {
-  margin-top: 15px;
-}
-
-.opa {
-  opacity: 0.5;
-}
-
-.product_pics {
-  margin-right: 0;
-}
-
-.num1 {
-  margin-left: 30%;
-  margin-right: 30%;
-}
-
-.cat_tag {
-  font-size: 15px;
-  font-weight: 500;
-}
-
-.tags {
-  font-size: 15px;
-  font-weight: 400;
-}
-
-.middleline {
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.middleline:hover {
-  font-weight: 600;
-  font-size: 22px;
-}
-
-.setting_top {
-  margin-top: 100px;
-}
-
-.setting_bottom {
-  margin-bottom: 100px;
-}
-
-.buuutton {
-  font-size: 20px;
-  border: unset;
-  background-color: unset;
-  color: #222;
-}
-
-.buuutton:hover {
+.pinktext {
   color: #f68773;
 }
 
-.buuutton:active {
-  border: unset;
-}
-
-.spinnn {
+.top-pic {
   width: 100%;
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
-  transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
 }
 
-.spinnn:hover {
-  -webkit-transform: rotate(540deg);
-          transform: rotate(540deg);
+.tags {
+  font-size: 30px;
 }
 
-.spinnnrv {
-  width: 100%;
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
-  transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
+.bold_title {
+  font-weight: 800;
+  font-size: 17px;
 }
 
-.spinnnrv:hover {
-  -webkit-transform: rotate(-540deg);
-          transform: rotate(-540deg);
+.graytext {
+  color: #999;
+}
+
+.member {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.sponsor {
+  opacity: 50%;
+  background-color: #f1efef;
+}
+
+.sponsor :hover {
+  opacity: 100%;
+}
+
+.manikin {
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  color: white;
+}
+
+.workhard {
+  font-size: 25px;
+}
+
+.nodrama {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.playbutton {
+  font-size: 80px;
+}
+
+.line {
+  width: 50px;
+}
+
+img:hover {
+  -webkit-filter: drop-shadow(5px 5px 10px #b1afaf);
+          filter: drop-shadow(5px 5px 10px #b1afaf);
+}
+
+.spin {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.spin :hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+#bkgd {
+  height: 500px;
+  background: url(https://raw.githubusercontent.com/Tselawi/project-supro-end/main/img_about/video-img.jpeg);
+  background-position: center;
+}
+
+#bkgd div {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  color: white;
+}
+
+#bkgd div:nth-child(2) {
+  -webkit-transition-delay: .3s;
+          transition-delay: .3s;
+}
+
+#bkgd div:nth-child(3) {
+  -webkit-transition-delay: .6s;
+          transition-delay: .6s;
+}
+
+#bkgd:hover div {
+  color: red;
 }
 
 /*pour footer*/

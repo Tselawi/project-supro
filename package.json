@@ -6,10 +6,11 @@
   "scripts": {
 
 
+
     "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
 ,
 
-    "scss": "node-sass --watch src_about/scss --output src_about/css --source-map true"
+    "scss": "node-sass --watch public/src_home/sass --output public/src_home/sass --source-map true"
 
 
 
